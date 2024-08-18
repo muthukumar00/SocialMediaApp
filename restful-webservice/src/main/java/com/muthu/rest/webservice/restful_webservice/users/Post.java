@@ -25,6 +25,14 @@ public class Post {
 		return id;
 	}
 
+	public Users getUser() {
+		return user;
+	}
+
+	public void setUser(Users user) {
+		this.user = user;
+	}
+
 	public void setId(Integer id) {
 		this.id = id;
 	}
